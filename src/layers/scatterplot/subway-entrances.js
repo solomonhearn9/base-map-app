@@ -12,7 +12,7 @@ const layerOptions = {
     id: 'scatterplot-subway-layer',
     data: 'https://data.cityofnewyork.us/resource/he7q-3hwy.json',
     getPosition: d => d.the_geom.coordinates,
-    getFillColor: d => [100, 255, 100],
+    getFillColor: d => [255, 255, 133],
     getLineColor: d => [0, 25, 55],
     opacity: .5,
     stroked: true,
