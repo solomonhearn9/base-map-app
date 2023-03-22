@@ -35,9 +35,9 @@ export default function Home() {
                 <nav>
                     <h1></h1>
                     <div className="buttons">
-                        <button onClick={() => setLayerId('1')} className={layerId === '1' && 'selected'}>Wifi Hotspots</button>
-                        <button onClick={() => setLayerId('2')} className={layerId === '2' && 'selected'}>Subway Entrances</button>
-                        <button onClick={() => setLayerId('3')} className={layerId === '3' && 'selected'}>Voting Polls</button>
+                        <button onClick={() => setLayerId('1')} className={layerId === '1' ? 'selected' : ''}>Wifi Hotspots</button>
+                        <button onClick={() => setLayerId('2')} className={layerId === '2' ? 'selected' : ''}>Subway Entrances</button>
+                        <button onClick={() => setLayerId('3')} className={layerId === '3' ? 'selected' : ''}>Voting Polls</button>
                     </div>
                     <div className="dummy" />
                 </nav>
